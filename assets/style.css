@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
+    color: #4e4e4e;
 }
 
 html {
@@ -25,19 +26,14 @@ ul {
 }
 
 a {
-    color: #3c533c;
+    color: #4e4e4e;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-a:hover {
-    color: #3c533c;
-}
-
-a:active {
-    color: #3c533c;
-    font-weight: 400;
+.nav-link {
+    color: #4e4e4e;
 }
 
 section {
@@ -61,16 +57,17 @@ hr {
 /* NAVIGATION */
 .navbar {
     background-color: #f7f7f7;
-    color: #3c533c;
+    color: #242424;
 }
 
 .navbar-toggler-icon {
-    color: #3c533c;
+    color: #242424;
+}
+.nav-link {
+    color: #242424;
 }
 
-nav.white {
-    height: 80px;
-}
+nav.white {}
 
 
 
