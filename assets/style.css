@@ -138,7 +138,7 @@ nav.white {}
 
 #skillBox {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #skillBox h3 {
