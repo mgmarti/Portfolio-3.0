@@ -63,6 +63,7 @@ hr {
 .navbar-toggler-icon {
     color: #242424;
 }
+
 .nav-link {
     color: #242424;
 }
@@ -121,12 +122,25 @@ nav.white {}
 
 /* ABOUT */
 #about {
-    background-color: #1e7274;
-    color: #f7f7f7;
+    background-color: #ffffff;
+    color: #242424;
 }
 
-#about hr {
-    border-top: 5px solid #f7f7f7;
+#aboutSection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#about-img {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#about-p {
+    flex: 1;
 }
 
 
@@ -139,6 +153,7 @@ nav.white {}
 #skillBox {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #skillBox h3 {
