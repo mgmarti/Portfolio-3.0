@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $('#heroBox').height($(window).height());
 
-    $('.nav-link').click(function() {
+    $('nav').click(function () {
         var sectionTo = $(this).attr('href');
         $('html, body').animate({
-          scrollTop: $(sectionTo).offset().top
+            scrollTop: $(sectionTo).offset().top
         }, 1500);
     });
 
