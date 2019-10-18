@@ -260,7 +260,7 @@ nav.white {}
 
 @media (min-width: 768px) {
     .profile-photo {
-        width: 550px;
+        width: 450px;
     }
 
     .skill {
