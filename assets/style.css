@@ -260,7 +260,7 @@ nav.white {}
 
 @media (min-width: 768px) {
     .profile-photo {
-        width: 250px;
+        width: 550px;
     }
 
     .skill {
@@ -280,6 +280,11 @@ nav.white {}
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    .image-container img {
+        width: 350px;
+        height: 233px;
     }
 }
 
@@ -331,7 +336,7 @@ nav.white {}
     }
 
     .profile-photo {
-        width: 250px;
+        width: 150px;
 
     }
 
